@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*****************buy***************/
+.buy { color: #000000;}
+.buy_left { padding: 117px 0 0 0; display: block; width: 400px;}
+.buy_left img { width: 400px;}
+.buy_right { width: 624px;}
+.buy_right_title { padding: 47px 0 23px 0; font-size: 30px; font-weight: 100; border-bottom: solid 2px #E6E6E6;}
+.buy_model_title { margin-top: 26px; font-size: 20px;}
+.buy_model_info { margin-top: 16px; font-size: 16px;}
+.buy_info { display: inline-block; width: 236px; height: 58px; background: #fff2e8; color: #000000; border: solid 1px #e5e5e5; margin-right: 16px;}
+.buy_parts_title { margin-top: 26px; font-size: 20px;}
+.buy_parts_info { margin-top: 16px; font-size: 16px;}
+.buy_num { float: right; margin-top: 30px; font-size: 20px;}
+.plus,.minus { display: inline-block; width: 26px; height: 26px; line-height: 26px; text-align: center; background: #F1F1F1; border: solid 1px #CBCBCB; vertical-align: bottom;}
+.numtxt { width: 50px; height: 26px; line-height: 26px; border: solid 1px #CBCBCB; border-left: none; border-right: none; vertical-align: bottom; text-align: center; font-size: 18px;}
+
+/*****buy_bottom****/
+.buy_bottom { width: 1024px; height: 168px; line-height: 168px; margin-top: 30px; border: solid 2px #E6E6E6; border-left: none; border-right: none; text-align: right; font-size: 30px; color: #ff4100;}
+.price { margin-right: 36px; font-weight: 100;}
+.price span { display: inline-block; width: 65px; margin-left: 15px; margin-right: 5px;}
+.buyBtn { display: inline-block; width: 180px; height: 50px; line-height: 50px; text-align: center; background: #ff4100; color: #FFFFFF;}
+
+/*****************product***************/
+.product { margin: 75px auto 180px auto; text-align: center;}
+.product_h3 { margin-bottom: 83px; font-size: 32px; font-weight: 100; color: #000000;}
+.product_title { font-size: 20px; color: #a7a7a7; margin: 30px auto 127px auto;}
+.product_title:last-child { margin: -80px auto 0 auto;}
+
+/*****************arguments***************/
+.arguments_h3 { margin-bottom: 113px; font-size: 32px; font-weight: 100; color: #000000; text-align: center;}
+.arguments_info dl { float: left; width: 210px; padding-left: 46px;}
+.arguments_info dl dt { font-size: 20px; color: #797979; margin-bottom: 38px;}
+.arguments_info dl dd { font-size: 14px; color: #797979; margin-bottom: 36px;}
+.arguments_info dl dd span:first-child { display: inline-block; width: 90px;}
+
+
+/************************shade*************************/
+.Shade { display: none; width: 100%; height: 100%; position: fixed; background: rgba(0,0,0,0.5); background: #000000\0;  filter:alpha(opacity=50);  z-index: 100; top: 0;}
+
+/*************************register******************************/
+.registerz,.loginz,.revisePaswordz { display: none; position: absolute; z-index: 100; top: 0; left: 0; right: 0; bottom: 0; width: 1024px; height: 100%; margin: auto;}
+.register,.revisePasword { position: absolute; top: 26%; left: 21%; width: 58%; background: rgba(0,0,0,.8); background: #000000\0;  filter:alpha(opacity=80); z-index: 101; border-radius: 1rem;}
+.reg_title { line-height: 140px; text-align: center; font-size: 42px; font-weight: 100; color: #FFFFFF;}
+
+/**placeholder**/
+.telTxt,.codeTxt,.pasTxt { width: 72%; height: 50px; line-height: 50px; margin: 0 10%; background: #FFFFFF url(../img/index/ren.png) no-repeat 3% center; padding-left: 8%; border: none; font-size: 20px; color: #797979;}
+.codeTxt { width: 40%; margin: 0 0 0 10%; background: #FFFFFF url(../img/index/suo.png) no-repeat 3% center; vertical-align: middle;}
+.telTxt::-webkit-input-placeholder,.codeTxt::-webkit-input-placeholder,.pasTxt::-webkit-input-placeholder { font-size: 20px; color: #999999;}
+.telTxt:-moz-placeholder,.codeTxt:-moz-placeholder,.pasTxt:-moz-placeholder { font-size: 20px; color: #999999;}
+.telTxt::-moz-placeholder,.codeTxt::-moz-placeholder,.pasTxt::-moz-placeholder { font-size: 20px; color: #999999;}
+.telTxt:-ms-input-placeholder,.codeTxt:-ms-input-placeholder,.pasTxt:-ms-input-placeholder { font-size: 20px; color: #999999;}
+
+/**placeholderError**/
+.telTxt1,.codeTxt1,.pasTxt1 { width: 72%; height: 50px; line-height: 50px; margin: 0 10%; background: #FFFFFF url(../img/index/ren.png) no-repeat 3% center; padding-left: 8%; border: none; font-size: 20px; color: #FF0000;}
+.codeTxt1 { width: 40%; margin: 0 0 0 10%; background: #FFFFFF url(../img/index/suo.png) no-repeat 3% center; vertical-align: middle;}
+.telTxt1::-webkit-input-placeholder,.codeTxt1::-webkit-input-placeholder,.pasTxt1::-webkit-input-placeholder { font-size: 20px; color: #FF0000;}
+.telTxt1:-moz-placeholder,.codeTxt1:-moz-placeholder,.pasTxt1:-moz-placeholder { font-size: 20px; color: #FF0000;}
+.telTxt1::-moz-placeholder,.codeTxt1::-moz-placeholder,.pasTxt1::-moz-placeholder { font-size: 20px; color: #FF0000;}
+.telTxt1:-ms-input-placeholder,.codeTxt1:-ms-input-placeholder,.pasTxt1:-ms-input-placeholder { font-size: 20px; color: #FF0000;}
+
+.codeBtn { display: inline-block; width: 28%; margin-left: 4%; height: 50px; line-height: 50px; text-align: center; background: #FACA12; color: #FFFFFF; font-size: 20px; border-radius: 8px; vertical-align: middle; cursor: pointer; border: none;}
+.tel_error,.code_error,.pas_error { width: 80%; margin: 0 10%; color: #FF0000; font-size: 20px; height: 50px; line-height: 50px;}
+.tel_error span,.code_error span,.pas_error span { display: none;}
+.checkbox { width: 80%; margin: 0 10% 52px 10%; color: #E8BC18; font-size: 20px; vertical-align: middle;}
+.checkboxBorder { width: 20px; height: 20px; background: none; border: solid 1px #FACA12; vertical-align: middle; margin-right: 5px;}
+.registerBtn2,.revisePaswordBtn2 { display: block; width: 80%; height: 50px; line-height: 50px; margin: 0 10%; background: #FACA12; color: #FFFFFF; font-size: 22px; text-align: center; border-radius: 8px;}
+.reg_bottom { width: 80%; margin: 0 10%; height: 44px; line-height: 44px; text-align: right; margin-bottom: 40px; font-size: 16px;}
+.reg_bottom a { color: #B6B6B6;}
+.reg_bottom a span { color: #FACA12;}
+
+/******************************login************************/
+.login { position: absolute; top: 26%; left: 21%; width: 58%; margin: 0 auto; background: rgba(0,0,0,.8); background: #000000\0;  filter:alpha(opacity=80); z-index: 101; border-radius: 1rem;}
+.log_title { line-height: 140px; text-align: center; font-size: 42px; font-weight: 100; color: #FFFFFF;}
+
+/**placeholder**/
+.log_telTxt,.log_pasTxt { width: 72%; height: 50px; line-height: 50px; margin: 0 10% 45px 10%; background: #FFFFFF url(../img/index/ren.png) no-repeat 3% center; padding-left: 8%; border: none; font-size: 20px; color: #797979;}
+.log_pasTxt { background: #FFFFFF url(../img/index/suo.png) no-repeat 3% center;  margin-bottom: 0px;}
+.log_telTxt::-webkit-input-placeholder,.log_pasTxt::-webkit-input-placeholder { font-size: 20px; color: #999999;}
+.log_telTxt:-moz-placeholder,.log_pasTxt:-moz-placeholder { font-size: 20px; color: #999999;}
+.log_telTxt::-moz-placeholder,.log_pasTxt::-moz-placeholder { font-size: 20px; color: #999999;}
+.log_telTxt:-ms-input-placeholder,.log_pasTxt:-ms-input-placeholder { font-size: 20px; color: #999999;}
+
+/**placeholderError**/
+.log_telTxt1,.log_pasTxt1 { width: 72%; height: 50px; line-height: 50px; margin: 0 10% 45px 10%; background: #FFFFFF url(../img/index/ren.png) no-repeat 3% center; padding-left: 8%; border: none; color: #FF0000; font-size: 20px;}
+.log_pasTxt1 { background: #FFFFFF url(../img/index/suo.png) no-repeat 3% center;  margin-bottom: 0px;}
+.log_telTxt1::-webkit-input-placeholder,.log_pasTxt1::-webkit-input-placeholder { font-size: 20px; color: #FF0000;}
+.log_telTxt1:-moz-placeholder,.log_pasTxt1:-moz-placeholder { font-size: 20px; color: #FF0000;}
+.log_telTxt1::-moz-placeholder,.log_pasTxt1::-moz-placeholder { font-size: 20px; color: #FF0000;}
+.log_telTxt1:-ms-input-placeholder,.log_pasTxt1:-ms-input-placeholder { font-size: 20px; color: #FF0000;}
+
+.loginBtn2 { display: block; width: 80%; height: 50px; line-height: 50px; margin: 0 10%; background: #FACA12; color: #FFFFFF; font-size: 22px; text-align: center; border-radius: 8px;}
+.log_bottom,.noPassword { width: 80%; margin: 0 10%; height: 30px; line-height: 30px; text-align: right; font-size: 16px; margin-bottom: 66px;}
+.log_bottom a { color: #FACA12;}
+.noPassword a { color: #AFAFAF;}
+
+/*************************loginError********************/
+.loginError { display: none; position: absolute; top: 30%; left: 25%; width: 50%; background: #FFFFFF; z-index: 102;}
+.loginError_title { margin-top: 78px; text-align: center; font-size: 24px; color: #000000;}
+.loginError_title img { margin-right: 10px;}
+.loginErrorBtn { display: block; width: 40%; height: 50px; line-height: 50px; margin: 50px 30%; background: #FACA12; color: #FFFFFF; font-size: 22px; text-align: center; border-radius: 25px;}
+.reg_cut,.rev_cut,.log_cut {position: absolute; top: 20px; right: 20px; width: 30px; height: 30px; cursor: pointer;}
+
+

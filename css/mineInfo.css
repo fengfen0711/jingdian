@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+/*****************orderTitle***************/
+.mineOrderNav { width: 126px; text-align: center; margin-right: 62px; line-height: 46px; border: solid 1px #FF4100; font-size: 16px; font-weight: 100;}
+.mineOrderNav li a { display: inline-block; width: 126px; height: 46px; border-bottom: solid 1px #FF4100;}
+.mineOrderNav li a:hover { color: #FF4100;}
+.mineOrderNav li:last-child a { border: none;}
+.mineOrderNav li a.active { background: #FF4100; color: #FFFFFF;}
+
+/**mineOrderRight**/
+.mineOrders { width: 834px;}
+.mineOrderTitle { height: 58px; line-height: 58px; font-size: 18px; color: #FF4100;}
+.onlyOrder { position: relative; padding: 20px; font-size: 16px; line-height: 30px; margin-bottom: 40px; border: solid 1px #CCCCCC; color: #333333;}
+.revicePasBtn { position: absolute; top: 32px; right: 50px; display: block; padding: 5px 30px; border-radius: 20px; background: #FF4100; color: #FFFFFF;}
+
+/************************shade*************************/
+.Shade { display: none; width: 100%; height: 100%; position: fixed; background: rgba(0,0,0,0.5); background: #000000\0;  filter:alpha(opacity=50);  z-index: 100; top: 0;}
+
+/*************************register******************************/
+.registerz { display: none; position: absolute; z-index: 100; top: 0; left: 0; right: 0; bottom: 0; width: 1024px; height: 100%; margin: auto;}
+.register,.revisePasword { position: absolute; top: 26%; left: 21%; width: 58%; padding-bottom: 40px; background: rgba(0,0,0,.8); background: #000000\0;  filter:alpha(opacity=80); z-index: 101; border-radius: 1rem;}
+.reg_title { line-height: 140px; text-align: center; font-size: 42px; font-weight: 100; color: #FFFFFF;}
+
+/**placeholder**/
+.telTxt,.codeTxt,.pasTxt { width: 72%; height: 50px; line-height: 50px; margin: 0 10%; background: #FFFFFF url(../img/index/ren.png) no-repeat 3% center; padding-left: 8%; border: none; font-size: 20px; color: #797979;}
+.codeTxt { width: 40%; margin: 0 0 0 10%; background: #FFFFFF url(../img/index/suo.png) no-repeat 3% center; vertical-align: middle;}
+.telTxt::-webkit-input-placeholder,.codeTxt::-webkit-input-placeholder,.pasTxt::-webkit-input-placeholder { font-size: 20px; color: #999999;}
+.telTxt:-moz-placeholder,.codeTxt:-moz-placeholder,.pasTxt:-moz-placeholder { font-size: 20px; color: #999999;}
+.telTxt::-moz-placeholder,.codeTxt::-moz-placeholder,.pasTxt::-moz-placeholder { font-size: 20px; color: #999999;}
+.telTxt:-ms-input-placeholder,.codeTxt:-ms-input-placeholder,.pasTxt:-ms-input-placeholder { font-size: 20px; color: #999999;}
+
+/**placeholderError**/
+.telTxt1,.codeTxt1,.pasTxt1 { width: 72%; height: 50px; line-height: 50px; margin: 0 10%; background: #FFFFFF url(../img/index/ren.png) no-repeat 3% center; padding-left: 8%; border: none; font-size: 20px; color: #FF0000;}
+.codeTxt1 { width: 40%; margin: 0 0 0 10%; background: #FFFFFF url(../img/index/suo.png) no-repeat 3% center; vertical-align: middle;}
+.telTxt1::-webkit-input-placeholder,.codeTxt1::-webkit-input-placeholder,.pasTxt1::-webkit-input-placeholder { font-size: 20px; color: #FF0000;}
+.telTxt1:-moz-placeholder,.codeTxt1:-moz-placeholder,.pasTxt1:-moz-placeholder { font-size: 20px; color: #FF0000;}
+.telTxt1::-moz-placeholder,.codeTxt1::-moz-placeholder,.pasTxt1::-moz-placeholder { font-size: 20px; color: #FF0000;}
+.telTxt1:-ms-input-placeholder,.codeTxt1:-ms-input-placeholder,.pasTxt1:-ms-input-placeholder { font-size: 20px; color: #FF0000;}
+
+.codeBtn { display: inline-block; width: 28%; margin-left: 4%; height: 50px; line-height: 50px; text-align: center; background: #FACA12; color: #FFFFFF; font-size: 20px; border-radius: 8px; vertical-align: middle; cursor: pointer; border: none;}
+.tel_error,.code_error,.pas_error { width: 80%; margin: 0 10%; color: #FF0000; font-size: 20px; height: 50px; line-height: 50px;}
+.tel_error span,.code_error span,.pas_error span { display: none;}
+.checkbox { width: 80%; margin: 0 10% 52px 10%; color: #E8BC18; font-size: 20px; vertical-align: middle;}
+.checkboxBorder { width: 20px; height: 20px; background: none; border: solid 1px #FACA12; vertical-align: middle; margin-right: 5px;}
+.registerBtn2 { display: block; width: 80%; height: 50px; line-height: 50px; margin: 0 10%; background: #FACA12; color: #FFFFFF; font-size: 22px; text-align: center; border-radius: 8px;}
+.reg_bottom { width: 80%; margin: 0 10%; height: 44px; line-height: 44px; text-align: right; margin-bottom: 40px; font-size: 16px;}
+.reg_bottom a { color: #B6B6B6;}
+.reg_bottom a span { color: #FACA12;}
+.rev_cut { position: absolute; top: 20px; right: 20px; width: 30px; height: 30px; cursor: pointer;}
+

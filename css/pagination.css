@@ -1,0 +1,46 @@
+#pagination {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 4px;
+    padding: 4px 6px 6px;
+    margin: 0 auto;
+}
+/*#pagination a, #pagination i {
+    display: inline-block;
+    vertical-align: middle;
+    width: 22px;
+    color: #7D7D7D;
+    text-align: center;
+    font-size: 10px;
+    padding: 3px 0 2px 0;
+    -webkit-user-select:none;
+       -moz-user-select:none;
+        -ms-user-select:none;
+         -o-user-select:none;
+            user-select:none;
+}*/
+/*#pagination a.glyphicon-chevron-left,#pagination a.glyphicon-chevron-right{
+	padding: 5px 4px;
+}*/
+#pagination a,#pagination i {
+    width: 34px;
+	height: 34px;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+}
+#pagination a {
+	border: 1px solid #E6E6E6;
+	cursor: pointer;
+	line-height: 34px;
+	margin-right: 9px;
+	background: #FFFFFF;
+	overflow: hidden;
+}
+#pagination i{
+	margin-left: -9px;
+}
+#pagination a.current {
+    background: #FF4100;
+    color: #FFFFFF;
+}

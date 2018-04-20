@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+/*****************orderTitle***************/
+.mineOrderNav { width: 126px; text-align: center; margin-right: 62px; line-height: 46px; border: solid 1px #FF4100; font-size: 16px; font-weight: 100;}
+.mineOrderNav li a { display: inline-block; width: 126px; height: 46px; border-bottom: solid 1px #FF4100;}
+.mineOrderNav li a:hover { color: #FF4100;}
+.mineOrderNav li:last-child a { border: none;}
+.mineOrderNav li a.active { background: #FF4100; color: #FFFFFF;}
+
+/**mineOrderRight**/
+.mineOrders { width: 834px;}
+.mineOrderTitle { height: 58px; line-height: 58px; font-size: 18px; color: #FF4100;}
+
+.onlyOrder { padding: 50px; line-height: 52px; font-size: 24px; margin-bottom: 100px; border: solid 1px #CCCCCC; color: #333333; text-align: center;}
+
+
+
+

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>阿布商城-账号安全</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/mineInfo.css"/>
+	</head>
+	<body>
+		<!--
+        	作者：fengfen0101@163.com
+        	描述：nav
+        -->
+        <div class="navz">
+        	<div class="nav w1 m clearFloat">
+        		<a href="index.html" class="l mall_logo"><img src="img/logo.png"></a>
+        		<p class="r nav_right">
+        			<a href="###" class="registerBtn">注册</a>
+        			<a href="###" class="loginBtn">登录</a>
+        			<a href="index.html" class="quitBtn">退出</a>
+        			<a href="http://www.iblooma.com/">返回首页</a>
+        		</p>
+        	</div>
+        </div>
+        
+        <!--
+        	作者：fengfen0101@163.com
+        	描述：mineOrder
+        -->
+        <div class="mineOrder w1 m clearFloat">
+        	<ul class="mineOrderNav l">
+        		<li><a href="mineOrder.html">我的订单</a></li>
+        		<li><a href="mineAdress.html">地址管理</a></li>
+        		<li><a href="mineInfo.html" class="active">账号安全</a></li>
+        		<li><a href="help.html">售后服务</a></li>
+        	</ul>
+        	<div class="mineOrders l">
+        		<p class="mineOrderTitle">账号安全</p>
+        		<div class="mineOrderBox">
+        			<div class="onlyOrder">
+        				<p>账号密码</p>
+        				<p>用于保护账号信息和登录安全</p>
+        				<a href="###" class="revicePasBtn">修改</a>
+        			</div>
+        		</div>
+        	</div>
+        </div>
+        
+        
+        <!--
+        	作者：longfen8812@163.com
+        	描述：mall_footer 
+        -->
+        <div class="mall_footerz">
+	        <div class="mall_footer w1 m clearFloat">
+	        	<div class="l mall_footer_left">
+	        		<p class="mall_footer_h3">阿布 Blooma</p>
+	        		<p>阿布 BLOOMA是一款提供智慧家庭内容及服务的创新型产品，集成了智能电视主机、电视盒子和家电控制等多项功能。阿布强调家庭属性，为家庭成员提供影视娱乐、智能遥控、视频通话、安防监控、家人信息共享及家庭生活等服务。阿布是基于安卓开发的一套智慧家庭系统，界面友好、操作十分简单，适用于所有的家庭成员。阿布能把普通电视转变为智能电视，并且在交互、操控、视觉体验上都有大幅度提升。阿布预计上线时间为2016年3月。</p>
+	        		<p><a href="###" class="xl_url">新浪微博：http://weibo.com/iblooma</a></p>
+	        	</div>
+	        	<div class="l mall_footer_middle">
+	        		<p class="mall_footer_h3">公司动态</p>
+	        		<div class="news clearFloat">
+	        			<a href="http://www.iblooma.com/blog/abubujuzhihuishengtai_889_1048.html">
+	        				<span class="news_border l"><img src="img/index/mall_4.png"/></span>
+	        				<p>打造未来智慧家庭服务综合体 阿布布局智慧生态</p>
+	        			</a>
+	        		</div>
+	        		<div class="news clearFloat">
+	        			<a href="http://www.iblooma.com/blog/abubujuzhihuishengtai_889_1048.html">
+	        				<span class="news_border l"><img src="img/index/mall_5.png"/></span>
+	        				<p>以视频内容为核心 阿布能否普及家庭智能?</p>
+	        			</a>
+	        		</div>
+	        	</div>
+	        	<div class="l mall_footer_right">
+	        		<p class="mall_footer_h3">联系我们</p>
+	        		<p><img src="img/index/code.png"/></p>
+	        		<p>北京市朝阳区利泽中一路1号院博雅国际中心</p>
+	        		<p>E-mail: info@iblooma.com</p>
+	        	</div>
+	        </div>
+	        
+	        <!--
+            	作者：longfen8812@163.com
+            	描述：mall_bottom
+            -->
+            <div class="mall_bottom w1 m">
+            	<p class="mall_bottom_nav">
+            		<a href="http://www.iblooma.com/">首页</a>
+            		<a href="http://www.iblooma.com/product">产品介绍</a>
+            		<a href="http://www.iblooma.com/jingdianshuimu">晶点水母</a>
+            		<a href="http://www.iblooma.com/contact-us">联系我们</a>
+            	</p>
+            	<p>©2016 晶点水母（北京）科技有限公司</p>
+            </div>
+	    </div>
+	    
+        <!--
+        	作者：fengfen0101@163.com
+        	描述：遮罩
+        -->
+		<div class="Shade" id="Shade"></div>
+		
+		<!--
+        	作者：longfen8812@163.com
+        	描述：register
+        -->
+        <div class="registerz">
+        	<div class="register" id="register">
+        		<img src="img/cut.png" class="rev_cut"/>
+				<p class="reg_title">密码修改</p>
+				<p class="reg_tel"><input type="tel" placeholder="手机号码" class="telTxt" id="telTxt" maxlength="11" name="phone" style="ime-mode: disabled;" onpaste="return false;"/></p>
+				<p class="tel_error"><span>手机号格式不正确！</span></p>
+				<p class="auth_code">
+					<input type="text" placeholder="验证码" value="验证码" class="codeTxt" id="codeTxt"/>
+					<input type="button" class="codeBtn" id="codeBtn" value="获取短信验证码"/>
+				</p>
+				<p class="code_error"><span>您输入的验证码有误！</span></p>
+				<p><input type="password" placeholder="密码(6-14位数字、字母或特殊符号)" class="pasTxt" id="pasTxt"/></p>
+				<p class="pas_error"><span>新密码是由6-14位数字、字母或特殊符号组成！</span></p>
+				<p><a href="###" class="registerBtn2">确定完成</a></p>
+			</div>
+        </div>
+        
+        <!--
+        	作者：longfen8812@163.com
+        	描述：回到顶部
+        -->
+        <div class="rightAside">
+        	<a href="###" class="QR_codeBtn"><img src="img/index/QR_code.png" /></a>
+        	<a href="###" class="return_topBtn" id="top"><img src="img/index/return_top.png"/></a>
+        	<div class="QR_code">
+        		<p class="QR_codeTitle">在线咨询 <img src="img/x.png" class="x" /></p>
+        		<p class="QR_codeMail"><a href="###">info@iblooma.com</a></p>
+        		<p class="QR_codeBox"><img src="img/index/code.png"/></p>
+        		<p class="QR_codeInfo">微信扫一扫</p>
+        		<p class="QR_codeInfo2">长按二维码关注阿布微信号</p>
+        	</div>
+        </div>
+		
+        <script src="js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+        <script src="js/base.js" type="text/javascript" charset="utf-8"></script>
+        <script src="js/mineInfo.js" type="text/javascript" charset="utf-8"></script>
+        <script type="text/javascript">
+        	
+	var URL1 = "http://101.201.208.100:8080/mt/";
+        </script>
+	</body>
+</html>
